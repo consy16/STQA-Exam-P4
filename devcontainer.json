@@ -1,7 +1,9 @@
+
 {
-    "name": "STQA Practical Exam",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
-    "remoteUser": "vscode"
+  "name": "STQA Practical Exam",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "java -version && mvn -version && chromium --version && chromedriver --version"
 }
