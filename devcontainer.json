@@ -1,0 +1,7 @@
+{
+    "name": "STQA Practical Exam",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "remoteUser": "vscode"
+}
